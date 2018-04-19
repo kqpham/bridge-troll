@@ -21,7 +21,6 @@ class BaseUI extends EventEmitter {
     super();
     this.options = options;
   }
-
   init(lat, lng) {
     let mapEl = document.createElement('div');
     mapEl.id = 'map';
