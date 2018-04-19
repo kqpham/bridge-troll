@@ -1,7 +1,7 @@
 'use strict';
 
 const debug = require('../debug');
-// Travis deployment test
+// Travis 
 // We need leaflet's CSS included before its JS
 require('../../node_modules/leaflet/dist/leaflet.css');
 
